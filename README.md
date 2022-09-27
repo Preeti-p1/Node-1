@@ -1,11 +1,11 @@
-What is Node.JS ?
-Ans. Node.js is a virtual machine that uses JavaScript as its scripting language and runs Chrome’s V8 JavaScript engine. Basically, Node.js is based on an event-driven architecture where I/O runs asynchronously making it lightweight and efficient. It is being used in developing desktop applications as well with a popular framework called electron as it provides API to access OS-level features such as file system, network, etc.
+Q.1 What is node.js ? Node.js is an open source, cross-platform runtime environment and library that is used for running web applications outside the client’s browser. Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
 
-What is express.js ?
-Ans. express.js is a free and open source web application framework for Node.JS. It is used for designing and building web applications quickly and easily. express.js is a framework of Node.js which means most of the code is already written for programmers to work with.
+Q.2 What is NPM? Npm stands for Node Package Manager. It is a package manager for the Node JavaScript platform. Npm is known as the world’s largest software registry. Open-source developers all over the world use npm to publish and share their source code. 1.The website allows you to find third-party packages, set up profiles, and manage your packages. 2.The command-line interface or npm CLI that runs from a terminal to allow you to interact with npm.
 
-What is middleware? Ans. Middleware comes in between your request and business logic. It is mainly used to capture logs and enable rate limit, routing, authentication, basically whatever that is not a part of business logic. There are third-party middleware also such as body-parser and you can write your own middleware for a specific use case.
+Q.3 What are the different modules in Node.js? Modules are of three types: 1.Core Modules(http,path,process,url,os) 2.local Modules(local modules are created locally in your Node.js application.) 3.Third-party Modules(npm install express,npm install mongoose,npm install -g @angular/cli)
 
-What is module ? Ans. A module is similar to JavaScript libraries. It is a set of function which we want to include in our application.
+Q.4 What is the purpose of the module.exports? The module. exports is a special object which is included in every JavaScript file in the Node. js application by default. The module is a variable that represents the current module, and exports is an object that will be exposed as a module. So, whatever you assign to module.
 
-What is Route in Node.js ? Ans. Routing is how the client requests are handled by the application endpoints.in nodejs, we can create diffrent routes by using conditionals,which is a very cumbersome task.hence,we use express framework which has an app object corresponding to http.
+Q.5 Difference between default export and named export --A default export can only export a single object, function, or variable and curly braces are omitted when importing in various files. --Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
+
+Q.6 How do you import any module in Node.js require() function In order to use Node. js core or NPM modules, you first need to import it using require() function as shown below. var module = require('module_name'); As per above syntax, specify the module name in the require() function.
